@@ -49,10 +49,6 @@ bool Automate::reduction(int n, Symbole * s) {
         delete(statestack.back());
         statestack.pop_back();
     }
-
-    afficherEtats();
-    afficherSymboles();
-
     statestack.back()->Transition(*this, new NonTerminal("E"));
     return statestack.back()->Transition(*this, s);
 }

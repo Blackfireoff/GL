@@ -5,7 +5,7 @@ LDFLAGS =
 SRCS = main.cpp symbole.cpp lexer.cpp etat.cpp automate.cpp
 OBJS = $(SRCS:.cpp=.o)
 HEADERS = symbole.h lexer.h etat.h automate.h
-TARGET = analyzer
+TARGET = BUTTIGIEG-HERON
 
 all: $(TARGET)
 
